@@ -12,6 +12,9 @@ header {
     background-color: #333;
     color: white;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 header h1 {
     margin: 0;
@@ -44,6 +47,9 @@ header > nav ul {
     flex: 1;
 }
 
+main {
+    margin-top: 80px;
+}
 
 
 main > .intro, main > p, main > .resume {
@@ -122,4 +128,13 @@ main > .intro, main > p, main > .resume {
 }
 #name > img {
     margin: 2em auto;
+}
+#social{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: #1c97fd 2px solid;
+    background-color: #1c97fd;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 2em;
 }
